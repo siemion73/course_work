@@ -1,0 +1,47 @@
+header {
+	color: #81B5B5;
+	background-color:#036A6A;
+	}
+header img {
+	position: absolute;
+	left: 50%;
+	}
+ul.nav_menu li, ul.nav_net li {
+	display: inline;
+	}
+nav ul.nav_menu *, input {
+	color: #81B5B5;
+	font-size: 15pt;
+	}
+body {  position: relative;
+	top: 2px;
+	bottom: 200px;
+	font-family: Verdana;
+	background-color: #005656;
+	}
+section.slider {
+	background-color: white;
+	}
+section.text {
+	position: absolute;
+	overflow: auto;
+	}
+footer  {
+	position: absolute;
+	top: 860px;
+	right: 2px;
+	bottom: 5px;
+	left: 2px;
+	height: 90px;
+	background-color: #003C3C;
+	}
+form {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	}
+ul.nav_net {
+	position: absolute;
+	left: 72%;
+	right: 10px;
+	}
