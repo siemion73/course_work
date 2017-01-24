@@ -3,69 +3,100 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>MobiKlinika</title>
+		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" media="(min-width: 800px) and (max-width: 1100px)" href="layout-md.css">
+		<link rel="stylesheet" media="(min-width: 600px) and (max-width: 799px)" href="layout-tab.css">
+		<link rel="stylesheet" media="(max-width: 599px)" href="layout-sm.css">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 	</head>
 	<body>
 		<header>
-			<img src="img/my_logo.png" alt="мобіклініка" title="Мобіклініка логотип" >
-			<br><br>
-			<h2>тел. 067 123 45 67</h2>
-			<h2>Працюємо: пн.-пт. 9:00-17:00, сб. 9:00-14:00</h2>
+			<div class="my_logo">
+				<img src="img/my_logo.png" class="logo" alt="мобіклініка" title="Мобіклініка логотип" >
+			</div>
+			<div class="contacts">
+				<div class="tel"><p>тел. 067 123 45 67</p></div>
+				<p>Працюємо:</p><p> пн-пт<span class="tel"> 9:00-17:00</span>, сб <span class="tel">9:00-14:00</span></p>
+			</div>
 		</header>
-		<hr size="5">
 		<nav>
-			<div>
+			<div class="nav_button">
 				<ul class="nav_menu">
-					<li><a href="#">Головна</a></li>
-					<li><a href="#">Несправності</a></li>
-					<li><a href="#">Аксесуари</a></li>
-					<li><a href="#">Контакти</a></li>
+					<li><a href="#" class="button">&nbsp;&ensp;&ensp;Головна&ensp;&ensp;&nbsp;</a></li>
+					<li><a href="#" class="button">Несправності</a></li>
+					<li><a href="#" class="button" >&ensp;Аксесуари&ensp;&ensp;</a></li>
+					<li><a href="#" class="button">&ensp;&ensp;Контакти&ensp;&nbsp;&nbsp;</a></li>
 				</ul>
 			</div>
+			<div class="adresa">
+				<p>м. Самбір вул. Валова 58</p>
+			</div>
 		</nav>
-		<hr size="5">
-			<section class="slider">
-				<span><img src="img/touch_ok.png" alt="touch screen fixing" title="touch screen fixing"></span>
-				<span><img src="img/soft_ok.png" alt="software update" title="software update"></span>
-				<span><img src="img/water2.png" alt="water fault fixing" title="water fault fixing"></span>
+		<hr>
+		<article>
+			<div class="repair_text">
+					<h1>Ремонт мобільних телефонів в м. Самбір</h1>
+					<h2>Обираючи нас, Ви обираєте якість і помірні ціни</h2>
+				</div>
+			<section class="news">
+				<div class="news1">
+					<h3>Новини</h3>
+				</div>
+				<div class="news2">
+					<div class="weather">
+						<div id="meteoprog_informer_standart" data-params="girl:Sambor:240x90:grey:48x50" >
+							<a href="https://www.meteoprog.ua/ua/">погода</a><br />
+							<a href="https://www.meteoprog.ua/ua/weather/Sambor/">Погода в  Самборі </a><br />
+						</div>
+						<script src="https://www.meteoprog.ua/ua/weather/informer/standart.js"></script>
+					</div>
+				</div>
 			</section>
-		<hr size="5" >	
-		<section class="text">
-		Компанія заснована 27 вересня 1998 року як приватна компанія, що займається розробкою, 
-		розвитком і дизайном найпопулярнішого в інтернеті пошукового сервісу. Google підтримує і
-		розробляє низку інтернет-сервісів і продукції, отримуючи дохід передусім від реклами, завдяки 
-		своїй програмі AdWords. Компанію заснували Ларрі Пейдж і Сергій Брін. Вперше як приватну компанію,
-		її було зареєстровано 4 вересня 1998 року, а 19 серпня 2004 року Google розпочав продаж своїх акцій
-		на фондовому ринку. Тоді Ларрі Пейдж, Сергій Брін та Ерік Шмідт домовилися про спільну співпрацю 
-		протягом 20 років, до 2024 року. Проголошеною місією компанії від самого початку була «організація
-		світової інформації, забезпечення її доступності та користі для всіх», а неофіційне гасло компанії, придумане
-		інженером Google Полом Бакгейтом: «Не будь злим» (англ. Don't be evil). 2003 року компанія переїхала до 
-		своєї нинішньої штаб-квартири в Маунтін-В'ю (штат Каліфорнія), де працюють близько 28 тис. робітників.
-		Google керує понад мільйоном серверів у центрах опрацювання даних (ЦОД) у всьому світі, опрацьовуючи 
-		більше мільярда пошукових запитів і 24 петабайт користувацьких даних щодня. Швидкий ріст Google з моменту 
-		його заснування призвів до виникнення великої кількості продукції, непов'язаної безпосередньо з головним продуктом
-		 компанії — пошуковою системою. Google має такі онлайн-продукти як поштовий сервіс Gmail, соціальні інструменти 
-		 Google+ та Google Buzz. У компанії є також і десктопні продукти, такі як браузер Google Chrome, програма для роботи 
-		 з фото Picasa і програма обміну миттєвими повідомленнями Google Talk. Крім того Google веде розробку мобільної 
-		 операційної системи Android, яка використовується великою кількістю смартфонів, а також операційною системою 
-		 Google Chrome OS, яку вже тепер можна скачати на офіційному сайті Google.
-		За версією BrandZ, Google — найсильніший[5] бренд у світі, а за версією компанії Brand-Finance — найдорожчий
-		(44,3 млрд долл.) бренд світу у 2011 році.[6][7] Проте в 2015 і в 2016 році вартість бренду була другою після 
-		бренду Apple.[8] 2011 року Google було визнано компанією з найкращою репутацією в США.[9][10]
-		</section>
+				
+			<section class="slide">
+				<span><img src="img/touch_ok.png" alt="тачскрін" title="тачскрин"></span>
+				<span><img src="img/soft_ok.png" alt="програмний ремонт" title="програмний ремонт"></span>
+				<span><img src="img/water2.png" alt="попадання вологи" title="попадання вологи"></span>
+			</section>
+			<hr>	
+			<section class="text">
+			Компанія заснована 27 вересня 1998 року як приватна компанія, що займається розробкою, 
+			розвитком і дизайном найпопулярнішого в інтернеті пошукового сервісу. Google підтримує і
+			розробляє низку інтернет-сервісів і продукції, отримуючи дохід передусім від реклами, завдяки 
+			своїй програмі AdWords. Компанію заснували Ларрі Пейдж і Сергій Брін. Вперше як приватну компанію,
+			її було зареєстровано 4 вересня 1998 року, а 19 серпня 2004 року Google розпочав продаж своїх акцій
+			на фондовому ринку. Тоді Ларрі Пейдж, Сергій Брін та Ерік Шмідт домовилися про спільну співпрацю 
+			протягом 20 років, до 2024 року. Проголошеною місією компанії від самого початку була «організація
+			світової інформації, забезпечення її доступності та користі для всіх», а неофіційне гасло компанії, придумане
+			інженером Google Полом Бакгейтом: «Не будь злим» (англ. Don't be evil). 2003 року компанія переїхала до 
+			своєї нинішньої штаб-квартири в Маунтін-В'ю (штат Каліфорнія), де працюють близько 28 тис. робітників.
+			Google керує понад мільйоном серверів у центрах опрацювання даних (ЦОД) у всьому світі, опрацьовуючи 
+			більше мільярда пошукових запитів і 24 петабайт користувацьких даних щодня. Швидкий ріст Google з моменту 
+			його заснування призвів до виникнення великої кількості продукції, непов'язаної безпосередньо з головним продуктом
+			 компанії — пошуковою системою. Google має такі онлайн-продукти як поштовий сервіс Gmail, соціальні інструменти 
+			 Google+ та Google Buzz. У компанії є також і десктопні продукти, такі як браузер Google Chrome, програма для роботи 
+			 з фото Picasa і програма обміну миттєвими повідомленнями Google Talk. Крім того Google веде розробку мобільної 
+			 операційної системи Android, яка використовується великою кількістю смартфонів, а також операційною системою 
+			 Google Chrome OS, яку вже тепер можна скачати на офіційному сайті Google.
+			За версією BrandZ, Google — найсильніший[5] бренд у світі, а за версією компанії Brand-Finance — найдорожчий
+			(44,3 млрд долл.) бренд світу у 2011 році.[6][7] Проте в 2015 і в 2016 році вартість бренду була другою після 
+			бренду Apple.[8] 2011 року Google було визнано компанією з найкращою репутацією в США.[9][10]
+			</section>
+		</article>
 		<footer>
-			<div>	
-				<form method="post" action="https://formspree.io/c-tel@ukr.net">
-					<input type="email" name="email" placeholder="ваш@e.mail">
-					<input type="submit" name="agree" value="Підпишись на новини">
+			<div class="mail_me">	
+				<form class="forma" method="post" action="https://formspree.io/c-tel@ukr.net">
+					<input type="email" name="email" placeholder="ваш@e.mail" size="15">
+					<input type="submit" name="agree" value="Підпишись на новини" >
 				</form>
 			</div>	
-			<div class="nav">
-				<ul class="nav_net">
-					<li><a href="http://www.vk.com" target="_blank"><img src="img/vk.png" alt="VK" title="VK"></a></li>
-					<li><a href="http://www.facebook.com" target="_blank"><img src="img/fb.png" alt="Facebook" title="Facebook"></a></li>
+			<div class="social">
+				<ul class="social_but">
+					<li><a href="http://www.vk.com" target="_blank"><img src="img/vk.png" alt="VK" title="в контакте"></a></li>
+					<li><a href="http://www.facebook.com" target="_blank"><img src="img/fb.png" alt="Fb" title="Facebook"></a></li>
 					<li><a href="https://twitter.com/" target="_blank"><img src="img/tw.png" alt="Twitter" title="Twitter"></a></li>
-					<li><a href="https://www.instagram.com" target="_blank"><img src="img/inst.png" alt="Instagram" title="Instagram"></a></li>
+					<li><a href="https://www.instagram.com" target="_blank"><img src="img/inst.png" alt="Instagram" title="Instagram" ></a></li>
 				</ul>
 			</div>
 		</footer>
