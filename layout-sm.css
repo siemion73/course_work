@@ -27,8 +27,6 @@ header {
 	left: 5%;
 	margin: 2px auto;
 }
-
-
 .contacts {
 	font-family:'Noto Serif', serif;
 	font-size: 20pt;
@@ -54,8 +52,6 @@ nav {
 	margin: 5px;
 	height: 20px;
 }
-
-
 ul.nav_menu li {
 	display: flex;
 	justify-content: spase-between;
@@ -122,7 +118,6 @@ section.text {
 	margin: 0 auto;
 	height: 100%;
 	margin: auto 20px;
-
 }
 footer {
 	display: flex;
@@ -130,7 +125,6 @@ footer {
 	max-width: 600px;
 	min-width: 350px;
 	height: 160px;
-	
 	bottom: 2px;
 	margin: 1% auto;
 	background-color: #003C3C;

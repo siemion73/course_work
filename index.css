@@ -101,7 +101,6 @@ article {
 .news1 { 
 	width: 240px;
 	max-height: 400px;
-	
 }
 .weather {
 	position: absolute;
@@ -165,7 +164,6 @@ ul.social_but {
 	width: 95%;
 	justify-content: flex-end;
 }
-
 ul.social_but li {
 	justify-content: flex-end;
 }	

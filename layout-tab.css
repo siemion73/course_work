@@ -47,13 +47,11 @@ nav {
 ul.nav_menu {
 	display: flex;
 	flex-wrap: nowrap;
-	
 }
 nav ul.nav_menu * {
 	font-size: 0.95em;
 }
 ul.nav_menu li a {
-	
 	padding: 5px 15px;
 	border: 2px outset #81B5B5;
 	background: linear-gradient(to top, #003535, #048E8E);
@@ -140,7 +138,6 @@ ul.social_but li {
 	display: inline;
 	margin: 10px 5px;
 }	
-
 ul.social_but li img {
 	margin: 5px;
 	border: 2px outset;
